@@ -49,7 +49,11 @@ li {
     padding: 20px;
 }
 
-p {
+.name {
+    font-size: 35px;
+}
+
+.price {
     font-size: 30px;
     color: #47cc4a;
 }
