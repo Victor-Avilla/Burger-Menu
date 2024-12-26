@@ -7,7 +7,7 @@ const formatCurrency = (value) => {
 showAll = (productsArray) => {
     let myLi = ''
 
-    productsArray.forEach((products) => {
+    productsArray.forEach(products => {
         myLi +=
             `
         <li>   
@@ -21,7 +21,7 @@ showAll = (productsArray) => {
 }
 
 apllyDiscount = () => {
-    const discount = menuOptions.map((product) => ({
+    const discount = menuOptions.map(product => ({
         ...product,
         price: product.price * 0.5
     }))
@@ -39,6 +39,6 @@ sumPrices = () => {
         `
 }
 veganFilter = () => {
-    const filt = menuOptions.filter((product) => product.vegan === true)
+    const filt = menuOptions.filter(product => product.vegan === true)
     showAll(filt)
 }
