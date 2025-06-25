@@ -6,6 +6,8 @@ Projeto prático para consolidar os conhecimentos sobre os métodos **map**, **r
 
 O Burger Menu exibe opções de hambúrgueres (tradicionais e veganos) e permite manipular a lista usando botões que aplicam desconto, somam preços ou filtram apenas opções veganas – tudo utilizando os métodos modernos de array do JavaScript.
 
+🔗 **Visualize o projeto online (deploy feito no Vercel):** https://burger-menu-git-main-victors-projects-86a43880.vercel.app?_vercel_share=3xeGHpft62yRu0pqOMWwaQodMwB6THbo
+
 ## Imagens
 
 ![image](https://github.com/user-attachments/assets/d539c6ae-c5d0-49cd-978a-73ae4aa9af8d) <img src=https://github.com/user-attachments/assets/7b8913c1-6650-4072-814d-bf2875f0d76b height=400px>
@@ -29,14 +31,6 @@ O Burger Menu exibe opções de hambúrgueres (tradicionais e veganos) e permite
 ├── scripts.js            # Funções JS para exibir, filtrar, somar e mapear produtos
 └── style.css             # Estilo visual do site, incluindo responsividade
 ```
-
-## Como usar
-
-1. Baixe ou clone o repositório:
-   ```sh
-   git clone https://github.com/Victor-Avilla/Burger-Menu.git
-   ```
-2. Abra o arquivo `index.html` no seu navegador.
 
 ## Responsividade
 
