@@ -1,43 +1,59 @@
-# Burger Menu 🍔
 
-Projeto prático para consolidar os conhecimentos sobre os métodos **map**, **reduce** e **filter** em JavaScript, aplicados em um menu responsivo e interativo de hamburgueria.
+# 🍔 Burger Menu | Interactive Burger Menu
 
-## Sobre
+Projeto prático para consolidar os conhecimentos sobre os métodos map, reduce e filter em JavaScript, aplicados em um menu responsivo e interativo de hamburgueria.  
+Hands-on project to consolidate knowledge of JavaScript's `map`, `reduce`, and `filter` methods, applied to a responsive and interactive burger menu.
 
-O Burger Menu exibe opções de hambúrgueres (tradicionais e veganos) e permite manipular a lista usando botões que aplicam desconto, somam preços ou filtram apenas opções veganas – tudo utilizando os métodos modernos de array do JavaScript.
+---
 
-🔗 **Visualize o projeto online (deploy feito no Vercel):** https://burger-menu-git-main-victors-projects-86a43880.vercel.app?_vercel_share=3xeGHpft62yRu0pqOMWwaQodMwB6THbo
+## ℹ️ Sobre | About
 
-## Imagens
+O Burger Menu exibe opções de hambúrgueres (tradicionais e veganos) e permite manipular a lista usando botões que aplicam desconto, somam preços ou filtram apenas opções veganas – tudo utilizando os métodos modernos de array do JavaScript.  
+The Burger Menu displays a list of burgers (traditional and vegan) and allows the user to apply discounts, calculate totals, or filter vegan options — all using modern JavaScript array methods.
 
-![image](https://github.com/user-attachments/assets/d539c6ae-c5d0-49cd-978a-73ae4aa9af8d) <img src=https://github.com/user-attachments/assets/7b8913c1-6650-4072-814d-bf2875f0d76b height=400px>
+🔗 **Visualize o projeto online (Vercel):**  
+🔗 **View the project online (Vercel):**  
+https://burger-menu-git-main-victors-projects-86a43880.vercel.app?_vercel_share=3xeGHpft62yRu0pqOMWwaQodMwB6THbo
 
+---
 
+## 🧩 Funcionalidades | Features
 
-## Funcionalidades
+- **Show All**: Exibe todos os produtos  
+  Shows all menu items  
+- **Map**: Aplica 50% de desconto em todos os produtos  
+  Applies 50% discount using `map()`  
+- **Sum All**: Mostra o valor total dos produtos  
+  Calculates total price using `reduce()`  
+- **Filter**: Exibe apenas opções veganas  
+  Filters only vegan items using `filter()`
 
-- **Show All:** Exibe todos os produtos do menu.
-- **Map:** Aplica 50% de desconto em todos os produtos, demonstrando o uso de `map`.
-- **Sum All:** Mostra o valor total dos produtos, usando `reduce`.
-- **Filter:** Exibe apenas as opções veganas, usando `filter`.
+---
 
-## Estrutura do Projeto
+## 📁 Estrutura do Projeto | Project Structure
 
 ```
 /
-├── Assets/               # Imagens dos produtos
-├── index.html            # Estrutura principal da página
-├── products.js           # Lista dos produtos do menu 
-├── scripts.js            # Funções JS para exibir, filtrar, somar e mapear produtos
-└── style.css             # Estilo visual do site, incluindo responsividade
+├── Assets/             # Imagens dos produtos | Product images
+├── index.html          # Estrutura principal | Main structure
+├── products.js         # Lista de produtos | Products list
+├── scripts.js          # Funções JS | JS logic (map/filter/reduce)
+└── style.css           # Estilo responsivo | Styling and responsiveness
 ```
 
-## Responsividade
+---
 
-O layout adapta-se a telas de computador, tablets e celulares, garantindo uma boa experiência em qualquer dispositivo.
+## 📱 Responsividade | Responsiveness
 
-## Tecnologias utilizadas
+O layout adapta-se a telas de computador, tablets e celulares.  
+The layout adapts to desktops, tablets, and mobile screens.
 
-- HTML5
-- CSS3 (Grid, responsividade, estilização moderna)
-- JavaScript (`map`, `reduce`, `filter`, manipulação de DOM)
+---
+
+## 🛠️ Tecnologias Utilizadas | Technologies Used
+
+- **HTML5**
+- **CSS3** (Grid, responsividade, estilização moderna)  
+  (Grid, responsiveness, modern styling)
+- **JavaScript** (map, reduce, filter, DOM manipulation)
+
